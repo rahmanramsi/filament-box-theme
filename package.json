@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "devDependencies": {
+    "@mertasan/tailwindcss-variables": "^2.2.3",
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/typography": "^0.5.2",
+    "tailwindcss": "^3.1.2",
+    "tippy.js": "^6.3.7"
+  },
+  "scripts": {
+    "watch": "npx tailwindcss -i ./resources/css/box.css -o ./public/dist/box.css --watch",
+    "build": "npx tailwindcss -i ./resources/css/box.css -o ./public/dist/box.css --minify"
+  }
+}

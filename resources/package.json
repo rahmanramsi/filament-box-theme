@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {
+    "watch": "npx tailwindcss -i ./resources/css/box.css -o ./public/box.css --watch",
+    "build": "npx tailwindcss -i ./resources/css/box.css -o ./public/box.css --minify"
+  }
+}
